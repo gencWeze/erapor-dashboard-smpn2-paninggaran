@@ -2,9 +2,9 @@
 
 > A student report-card dashboard I developed for **SMP Negeri 2 Paninggaran** (Pekalongan Regency) during my KKN community-service program in 2023. Teachers enter grades into one spreadsheet, and a **Google Looker Studio** dashboard turns them into school-wide summaries and **per-student, per-subject progress** that teachers and parents can follow. I also wrote a **guidebook** so the school could keep the dashboard updated after I left.
 
-![Dashboard overview](assets/dashboard-summary.png)
+![Dashboard overview](dashboard-summary.png)
 
-🔗 **Live demo (dummy data):** [[ISI: link Looker Studio versi data dummy]]
+🔗 **Live demo (dummy data):** https://datastudio.google.com/reporting/518c0cd1-93a1-4f34-b1b3-feafbdcba7e0
 
 > ⚠️ **About the data:** everything in this repository uses **fictional data** (made-up names, IDs and grades). Any real student records belong to the school and are not published.
 
@@ -46,31 +46,21 @@ My goals were to help school staff **get comfortable with digital tools** and gi
 ### 3. Guidebook (Canva, 9 pages)
 - How to read each page and use every filter
 - Step-by-step instructions for the **operator** (enter new students at the start of each year, keep names and IDs consistent) and for **teachers** (enter scores as they come in, leave blanks instead of 0)
-- 📄 [Read the guidebook](docs/Buku_Panduan_Dashboard.pdf) (internal links and student data redacted)
+- 📄 [Read the guidebook](Buku_Panduan_Dashboard.pdf) (internal links and student data redacted)
 
-![Guidebook preview](assets/guidebook-preview.jpg)
+![Guidebook preview](guidebook-preview.jpg)
 
 ## 📈 Outcome
 
 - Delivered the database template, dashboard and guidebook to the school.
 - The school **welcomed the tool**, and staff were introduced to updating and reading it themselves.
-- [[CEK: The dashboard was later updated with 2023/2024 data, suggesting the school kept using it after KKN.]]
 
 ## 🖼️ Screenshots (dummy data)
 
 | Summary page | Student page |
 |---|---|
-| ![](assets/dashboard-summary.png) | ![](assets/dashboard-student.png) |
+| ![](dashboard-summary.png) | ![](dashboard-student.png) |
 
-## 🤝 Credits & My Contribution
-
-This dashboard builds on an earlier e-Raport dashboard made by [[ISI: nama teman, atau "a fellow KKN team member"]], which I then modified and extended.
-
-| Original version (by [[ISI: nama teman]]) | What I added or changed |
-|---|---|
-| [[ISI: mis. desain awal & halaman Summary]] | [[ISI: mis. halaman Student dengan 12 grafik per mapel]] |
-| [[ISI]] | [[ISI: mis. struktur database, rumus Raport & validasi data]] |
-| | Guidebook for the school operator and teachers |
 
 ## 🗂️ Repository Contents
 
